@@ -165,7 +165,7 @@ filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
   border-radius: 10px;
   margin-top: 5%;
   height: 85px;
-  margin-top: 20%;
+  margin-top: 10%;
 filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
 }
 
@@ -209,3 +209,56 @@ filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
     float: right;
     
   }
+.btn-group button {
+  background-color: #28353B; 
+  border: 1px solid #232c30;
+color: #aebfc7;
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+transition: 0.3s;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #35434c;
+
+}
+
+.buttonplay {
+  background-color: #23d160;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+    display: flex;
+    margin:auto;
+margin-top: 10%;
+    border-radius: 6px;
+    box-shadow: rgb(21 98 54) 0px 2px 0px 0px;
+    color: rgb(43, 62, 70);
+    font-weight: bold;
+transition: 0.3s;
+}
+
+
+.buttonplay:hover {
+background-color: #15ff8e;
+
+}
