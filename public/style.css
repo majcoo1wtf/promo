@@ -262,3 +262,7 @@ transition: 0.3s;
 background-color: #15ff8e;
 
 }
+
+br {
+   display: block;
+   margin: 2px 0;
