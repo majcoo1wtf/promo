@@ -247,8 +247,6 @@ transition: 0.3s;
   margin: 4px 2px;
   cursor: pointer;
 
-    display: flex;
-    margin:auto;
 margin-top: 10%;
     border-radius: 6px;
     box-shadow: rgb(21 98 54) 0px 2px 0px 0px;
@@ -280,11 +278,10 @@ br {
   margin: 4px 2px;
   cursor: pointer;
 
-    display: flex;
-    margin:auto;
+
 margin-top: 10%;
     border-radius: 6px;
-    box-shadow: rgb(21 98 54) 0px 2px 0px 0px;
+    box-shadow: #6E2FCA;
     color: white;
     font-weight: bold;
 transition: 0.3s;
@@ -292,6 +289,10 @@ transition: 0.3s;
 
 
 .twitchbtn:hover {
-background-color: #15ff8e;
+background-color: #A871F9;
 
+}
+
+.buttonslink {
+margin:auto;
 }
