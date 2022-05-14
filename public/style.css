@@ -27,6 +27,8 @@ p {
     padding-top: 3%;
     position: relative;
     display: inline-block;
+font-size: 22px;
+    padding-bottom: 5px;
 }
 svg {
   position: relative;
