@@ -319,6 +319,6 @@ background-color: #3b4c56;
     transition: 0.3s;
 
 }
-.buttonplaysec {
+.buttonplaysec:hover {
 background-color: #495e6a;
 }
