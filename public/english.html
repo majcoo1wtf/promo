@@ -178,23 +178,23 @@ Gamdom Team
 
 </li>
 <div class="buttonslink" style="gap: 10px;margin: auto;display: table;">
-<a href="https://gamdom.com"><button class="buttonplay">Play Now!</button></a>
+<button id="myBtn" class="buttonplay">Jugar Ahora!</button></a>
 <a href="https://www.twitch.tv/andypsx"><button class="twitchbtn">Andypsx Twitch</button></a>
 
-
-
-
-
-
-
-
-
-
-
-
+</div>
 </div>
 
-  
+</div>
+</div>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -276,8 +276,156 @@ Gamdom Team
 <path d="M21.737 5.52729C21.737 5.32232 21.737 5.11827 21.7231 4.91514C22.6565 4.24475 23.4621 3.41469 24.1024 2.46381C23.232 2.84679 22.3087 3.09795 21.3633 3.2089C22.3588 2.61706 23.104 1.68619 23.46 0.589529C22.5238 1.14115 21.4996 1.52991 20.4316 1.73903C18.9533 0.178106 16.6043 -0.203935 14.7017 0.80713C12.7992 1.8182 11.8163 3.97092 12.3042 6.05818C8.46961 5.86729 4.89692 4.06879 2.47528 1.11027C1.20947 3.27413 1.85602 6.04235 3.9518 7.43203C3.19284 7.4097 2.45043 7.2064 1.78722 6.83928C1.78722 6.85867 1.78722 6.87898 1.78722 6.8993C1.78784 9.1536 3.38811 11.0952 5.61335 11.5416C4.91123 11.7317 4.17456 11.7595 3.45994 11.6229C4.08471 13.552 5.87516 14.8736 7.91554 14.9116C6.22678 16.2295 4.1406 16.945 1.99271 16.9429C1.61326 16.9421 1.23418 16.9193 0.857422 16.8745C3.0384 18.2643 5.57608 19.0015 8.16752 18.9981C16.9393 19.0018 21.737 11.7853 21.737 5.52729Z" fill="#1DA1F2" style="
     margin-top: 8px;
 "></path>
-</svg>
+</svg></a>
 </div>
 
 
 </div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 style="padding-top: 0%;display: block;text-align: center;">Warning</h2>
+    </div>
+    <div class="modal-body">
+<p style="font-size: 21px;padding-top: 50px;">This website is available only for 18+!</p>
+
+<div class="buttonslink" style="gap: 10px;margin: auto;display: table;padding-top: 15%;padding-bottom: 20px;">
+<a href="https://gamdom.com/landing?tag1=andypsx"><button class="buttonplay">Continue</button></a>
+<a href="https://andypsx.com"><button class="buttonplaysec">Cancel</button></a>
+    </div>
+    </div>
+    </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #2f3d45;
+  margin: auto;
+  padding: 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+max-width: 457px;
+    width: auto;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+}
+
+.close:hover,
+.close:focus {
+  color: #23d160;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #2f3d45;
+  color: white;
+border-radius: 10px 10px 0px 0px;
+}
+
+.modal-body {padding: 2px 16px; background-color: #2f3d45; border-radius: 0px 0px 10px 10px}
+
+.modal-footer {
+  padding: 33px 33px;
+  background-color: #2f3d45;
+  color: white;
+border-radius: 0px 0px 10px 10px;
+}
+</style>

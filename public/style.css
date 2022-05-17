@@ -298,3 +298,22 @@ background-color: #A871F9;
 .buttonslink {
 margin:auto;
 }
+
+
+
+.buttonplaysec {
+background-color: #3b4c56;
+    border: none;
+    color: #6d8797;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 10%;
+    border-radius: 6px;
+    /* box-shadow: rgb(21 98 54) 0px 2px 0px 0px; */
+    /* color: rgb(43, 62, 70); */
+    font-weight: bold;
+    transition: 0.3s;
